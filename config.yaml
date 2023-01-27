@@ -1,0 +1,11 @@
+postgres:
+  host: postgres
+  port: 5432
+  user: user
+  password: password
+  database: db
+server:
+  port: 8080
+  secret: webProj
+  interval: 10
+  worker_num: 10
